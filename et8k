@@ -9,20 +9,20 @@ echo ""
 echo "WAIT WHILE USER FILES ARE BACKED UP TO HARD DRIVE!...."
 echo "......................................................"
 wget -O /dev/null -q "http://localhost/web/message?text=WAIT WHILE USER FILES ARE BACKED UP TO HARD DRIVE&type=2&timeout=2"
-cd /etc/ &&
-cp -f -v inadyn.conf host* wpa_supplicant* fstab /media/hdd &&
-cd /etc/enigma2/ &&
-cp -f -v -r /etc/tuxbox/config /media/hdd &
+cd /etc/
+cp -f -v inadyn.conf host* wpa_supplicant* fstab /media/hdd
+cd /etc/enigma2/
+cp -f -v -r /etc/tuxbox/config /media/hdd
 cp -f -v autotimer.xml timers.xml userbouquet.favourites.tv /media/hdd &
-cp -f -v /etc/network/interfaces /media/hdd &
-rm -r /media/hdd/imagebackups/latest* &
-#cd /etc/ &&
-#cp -f -v inadyn.conf host* wpa_supplicant* fstab /media/hdd &&
-#cd /etc/enigma2/ &&
-#cp -f -v -r /tuxbox/config /media/hdd &&
-#cp -f -v autotimer.xml timers.xml userbouquet.favourites.tv /media/hdd &&
-#cp -f -v /etc/network/interfaces /media/hdd &&
-#rm -r /media/hdd/imagebackups/latest* &&
+cp -f -v /etc/network/interfaces /media/hdd
+rm -r /media/hdd/imagebackups/latest*
+#cd /etc/
+#cp -f -v inadyn.conf host* wpa_supplicant* fstab /media/hdd
+#cd /etc/enigma2/
+#cp -f -v -r /tuxbox/config /media/hdd
+#cp -f -v autotimer.xml timers.xml userbouquet.favourites.tv /media/hdd
+#cp -f -v /etc/network/interfaces /media/hdd
+#rm -r /media/hdd/imagebackups/latest*
 echo "......................................................."
 echo "USER FILES SAVED FOR RESTORE AFTER UPDATE"
 echo "Showing a list of backed up files...."
@@ -31,10 +31,10 @@ sleep .5
 echo "Now preparing to download new custom firware...."
 echo "......................................................."
 echo "......................................................."
-echo "DEPENDING ON INTERNET SPEED, THIS CAN A WHILE..................." &&
+echo "DEPENDING ON INTERNET SPEED, THIS CAN A WHILE..................."
 cd /media/hdd/imagebackups
-echo "Downloading ...................................................." &&
-wget --output-document=xtrend.zip https://www.dropbox.com/s/xxxxxxxxxxxxxxxx.zip?dl=0 &&
+echo "Downloading ...................................................."
+wget --output-document=xtrend.zip https://www.dropbox.com/s/duw4cxggvzcxw5o/openvix-et8000-release-5.2.044-20190709_194517.zip?dl=0
 echo "======================================================="
 echo "======================================================="
 echo "NOTE: File saved in '/hdd/imagebackups' go and flash it!"
