@@ -1,6 +1,6 @@
 !/usr/bin/sh
 ######################################           script version             ##########################################
-######################################   se2-sky-virgin-custom-upgrade.sh   ##########################################
+######################################   se2 satellite cable upgrade.sh     ##########################################
 
 #wget -O /dev/null -q "http://localhost/web/message?text=WAIT WHILE USER FILES ARE BACKED UP TO HARD DRIVE&type=2&timeout=120" &
 #cp -f -v /etc/inadyn.conf /media/hdd & cp -f -v -r /etc/tuxbox/config /media/hdd & cp -f -v /etc/enigma2/autotimer.xml /media/hdd & cp -f -v /etc/enigma2/timers.xml /media/hdd & cp -f -v /etc/enigma2/#userbouquet.favourites.tv /media/hdd & cp -f -v /etc/fstab /media/hdd && cp -f -v /etc/network/interfaces /media/hdd & cp -f -v /etc/wpa_supplicant* /media/hdd & cp -f -v /etc/hostname /media/hdd &&
