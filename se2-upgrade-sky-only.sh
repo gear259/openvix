@@ -1,3 +1,6 @@
+######################################           script version             ##########################################
+######################################   se2-sky-virgin-custom-upgrade.sh   ##########################################
+
 echo ""
 echo ""
 echo "This script will backup userfiles and download custom firmware to the latest custom version"
