@@ -1,7 +1,7 @@
 #!/usr/bin/sh
 #Backup the user files stored from system to the hdd
 echo '-----WAIT WHILE USER FILES ARE BACKED UP TO HARD DRIVE-----'
-mkdir -p /media/hdduserfiles
+mkdir -p /media/hdd/userfiles
 cd media/hdd/userfiles
 cp -f -v /etc/inadyn.conf /media/hdd/userfiles
 cp -f -v -r /etc/tuxbox/config /media/hdd/userfiles
