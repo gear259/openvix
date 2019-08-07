@@ -2,7 +2,7 @@
 #Backup the user files stored from system to the hdd
 echo '-----WAIT WHILE USER FILES ARE BACKED UP TO HARD DRIVE-----'
 cd /media/hdd
-mkdir userfiles
+mkdir -v -p userfiles
 cp -f -v /etc/inadyn.conf /media/hdd/userfiles
 cp -f -v -r /etc/tuxbox/config /media/hdd/userfiles
 cp -f -v /etc/emigma2/settings /media/hdd/userfiles
