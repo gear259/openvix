@@ -1,5 +1,6 @@
 #!/usr/bin/sh
 #Backup the user files stored from system to the hdd
+wget -O /dev/null -q "http://localhost/web/message?text=Please wait while userfiles are backed up to drive&type=2&timeout=10"
 echo '-----WAIT WHILE USER FILES ARE BACKED UP TO HARD DRIVE-----'
 mkdir -p /media/hdd/userfiles
 cd media/hdd/userfiles
