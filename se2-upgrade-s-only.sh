@@ -34,7 +34,7 @@ echo "......................................................."
 echo "DEPENDING ON INTERNET SPEED, THIS CAN A WHILE..................." &&
 cd /media/hdd/imagebackups
 echo "Downloading ...................................................." &&
-wget --output-document=se2-sky-only-5.2.030.zip https://www.dropbox.com/s/6luat2e9wuxg0ve/se-skyonly.zip?dl=0 &&
+wget --output-document=latest-se2-sky-only-5.2.034.zip https://www.dropbox.com/s/6luat2e9wuxg0ve/se-skyonly.zip?dl=0 &&
 echo "======================================================="
 echo "======================================================="
 echo "NOTE: File saved in '/hdd/imagebackups' go and flash it!"
